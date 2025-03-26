@@ -1,0 +1,23 @@
+open matlab
+change to C:\Users\rajim\Downloads\DREMI\dremigui\
+ensure that the src folder is added to the path
+type simpledremi and run, a gui should appear
+Add File
+select the fcs file
+select the markers then click on the DREVI button to plot the DREVI plot
+
+
+
+
+
+change to the src folder
+then select fcs files
+
+
+
+
+Home-> layout -> (to see the folder content)
+
+
+
+import pyspark;from pyspark.sql import SparkSession;from pyspark.sql import Row;spark = SparkSession.builder.appName('PySparkTest').getOrCreate();data = [Row(name='Alice', age=30), Row(name='Bob', age=25), Row(name='Charlie', age=35)];df = spark.createDataFrame(data);print(f'PySpark version: {pyspark.__version__}');df.show();spark.stop()
